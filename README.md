@@ -47,5 +47,5 @@ In this configuration file, channelID is the ID of the channel where messages wi
 
 To run the example, execute the following commands:
 
-`go get -u github.com/tapmah/service-status-checker
-go run main.go`
+`go get -u github.com/tapmah/service-status-checker`
+`go run main.go`
