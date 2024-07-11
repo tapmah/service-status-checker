@@ -35,7 +35,7 @@ func main() {
 ```
 
 Before running the example, you need to configure the config.yml file. Heres an example of what the configuration file might look like:
-```json
+```yml
 discord:
   channelID: "1234567890"
   token: "your-bot-token"
