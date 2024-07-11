@@ -32,14 +32,16 @@ func main() {
 	checker := checker.NewChecker(serviceName, services)
 	checker.Start()
 }
+```
 
 Before running the example, you need to configure the config.yml file. Heres an example of what the configuration file might look like:
-
+```json
 discord:
   channelID: "1234567890"
   token: "your-bot-token"
 checker:
   serviceName: "your-service-name"
+```
 
 In this configuration file, channelID is the ID of the channel where messages will be sent, token is the token of the bot that will send the messages, and serviceName is the name of the service that will be monitored.
 
