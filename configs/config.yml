@@ -1,0 +1,5 @@
+discord:
+  channelID: "<YOUR CHANNEL ID>"
+  token: "<YOUR DISCORD TOKEN>"
+service:
+  name: "<YOUR SERVICE NAME>"
